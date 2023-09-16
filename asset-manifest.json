@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Turkish-CheckersGame/static/css/main.5c5e39e1.css",
+    "main.js": "/React-Turkish-CheckersGame/static/js/main.7a20f2f7.js",
+    "static/js/787.7314c409.chunk.js": "/React-Turkish-CheckersGame/static/js/787.7314c409.chunk.js",
+    "index.html": "/React-Turkish-CheckersGame/index.html",
+    "main.5c5e39e1.css.map": "/React-Turkish-CheckersGame/static/css/main.5c5e39e1.css.map",
+    "main.7a20f2f7.js.map": "/React-Turkish-CheckersGame/static/js/main.7a20f2f7.js.map",
+    "787.7314c409.chunk.js.map": "/React-Turkish-CheckersGame/static/js/787.7314c409.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c5e39e1.css",
+    "static/js/main.7a20f2f7.js"
+  ]
+}
