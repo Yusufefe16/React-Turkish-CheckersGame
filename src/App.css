@@ -1,12 +1,14 @@
-.chess-board{
+.chess-board {
   display: grid;
-  grid-template-columns: repeat(8,1fr);
-  grid-template-columns: repeat(8,1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   width: 688px;
   height: 688px;
   justify-content: center;
+  align-items: center;
   border: 1px solid #393e46;
 }
+
 
 .App{
   display: grid;
@@ -171,8 +173,98 @@ ul.infoli li.li2 a:hover svg {
   fill: #4078c0;
 }
 
-.footer{
+/* RESPONSIVE DESIGN*/
+
+@media (min-width: 950px) {.footer{
   margin-top: 15px;
   grid-column: 2 / 3;
   grid-row: 2/3;
+}}
+
+
+@media (max-width: 950px) {
+  .App {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .resultw {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .resultb {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 90px;
+    height: 90px;
+  }
+
+  .centeredResults{
+    font-size: 20px;
+  }
+
+  .board{
+    margin-top: 10px;
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .footer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  .chess-board{
+    width: 480px;
+    height: 480px;
+  }
+
+  .chess-cell{
+    width: 58px;
+    height: 58px;
+  }
+  
+  .black{
+    width: 35px;
+    height: 35px;
+  }
+
+  .white{
+    width: 35px;
+    height: 35px;
+  }
+
+  .upperwhite{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #f95959;
+  }
+
+  .upperblack{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #f95959;
+  }
+}
+
+
+@media (max-width: 500px){
+  .chess-board{
+    width: 360px;
+    height: 360px;
+  }
+
+  .chess-cell{
+    width: 43px;
+    height: 43px;
+  }
+}
+
+.hh1{
+  display: flex;
+  justify-content: center;
 }

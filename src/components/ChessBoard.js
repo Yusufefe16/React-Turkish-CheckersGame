@@ -670,7 +670,8 @@ function ChessBoard() {
   };
 
   return (
-    <div>
+    <div className="board">
+      <div className="hh1"><h1>Turkish Checkers Game</h1></div>
       {whoWin !== null && <div className="result">Winner: {whoWin}</div>}
       <div className="chess-board">
         {board.map((column, columnIndex) =>
